@@ -28,7 +28,7 @@
 }
 
 video {
-    /* object-fit: contain; */
+    object-fit: fill;
     /* overflow-x: hidden; */
 }
 
@@ -46,6 +46,8 @@ video {
         height: 100%; */
         position: absolute;
         /* top: 130px; */
+        /* width: 0.3rem;
+        height: 0.1rem; */
         bottom: 48%;
 }
 

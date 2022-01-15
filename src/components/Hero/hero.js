@@ -63,14 +63,11 @@ const Hero = () => {
                     Your browser does not support the video tag.
                 </video>
 
+                {/* <div className="text-box">
+                    <img src={Title}></img>
+                </div> */}
 
-
-
-                <div className="text-box">
-                    <p>Sol Mage Society</p>
-                </div>
-
-                <div className="nft-box">
+                {/* <div className="nft-box">
                     <div className="video-box">
                         <video className="video-nft" autoplay="autoplay" muted loop>
                             <source src={PixelBackground} type="video/mp4"></source>
@@ -78,7 +75,7 @@ const Hero = () => {
                             Your browser does not support the video tag.
                         </video>
                     </div>
-                </div>
+                </div> */}
 
             </div>
 
