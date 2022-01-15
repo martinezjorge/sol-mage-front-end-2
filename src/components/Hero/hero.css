@@ -25,10 +25,11 @@
 .hero video.video-test {
     position: absolute;
     height: 100vh;
+    width: 100vw;
 }
 
 video {
-    object-fit: fill;
+    object-fit: cover;
     /* overflow-x: hidden; */
 }
 
