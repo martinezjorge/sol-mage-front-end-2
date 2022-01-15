@@ -16,7 +16,7 @@ const VoidPass = () => {
     let interval = useRef();
 
     const startTimer = () => {
-        const countdownDate = new Date('February 08 2022 00:00:00').getTime();
+        const countdownDate = new Date('January 17 2022 17:00:00').getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
@@ -87,10 +87,10 @@ const VoidPass = () => {
 
                 
                 <div className="right">
-                <h2>WHAT IS A VOID PASS?</h2>
-                <p>THE VOID PASS IS YOUR KEY TO UNLOCKING SPECIAL FEATURES, REWARDS, GOVERNANCE, PRIVATE ACCESS, AND PERKS FROM THE VOID MARKETPLACE AND ITS PARTNERS</p>
+                <h2>WHAT ARE SOL MAGES?</h2>
+                <p>SOL MAGES ARE YOUR ENTRY POINT INTO OUR COMMUNITY</p>
                 <h2>PERKS AND BENEFITS</h2>
-                {/* <p>THE VOID PASS IS YOUR KEY TO UNOCKING SPECIAL FEATURES, REWARDS, GOVERNANCE, PRIVATE ACCESS, AND PERKS FROM THE VOID MARKETPLACE AND ITS PARTNERSTHE VOID PASS IS YOUR KEY TO UNOCKING SPECIAL FEATURES, REWARDS, GOVERNANCE, PRIVATE ACCESS, AND PERKS FROM THE VOID MARKETPLACE AND ITS PARTNERSTHE VOID PASS IS YOUR KEY TO UNOCKING SPECIAL FEATURES, REWARDS, GOVERNANCE, PRIVATE ACCESS, AND PERKS FROM THE VOID MARKETPLACE AND ITS PARTNERS</p> */}
+                <p>SOL MAGES ARE YOUR KEY TO UNOCKING SPECIAL FEATURES, REWARDS, GOVERNANCE, PRIVATE ACCESS, AND PERKS FROM THE SOLD MAGE PLATFORM AND ITS PARTNERS.</p>
                 <img src={Table} alt="The Void logo" className="table"></img>
                 <h2>OTHER PERKS</h2>
                 <ul>
