@@ -4,7 +4,7 @@ import "./hero.css"
 // import Mint from '../../assets/img/planet-sphere-2.png';
 // import CountDown from '../../assets/img/countdown.png';
 import ReactPlayer from "react-player"
-import Title from "../../assets/img/title.png";
+import Title from "../../assets/img/transparent_title.png";
 import PixelBackground from '../../assets/video/pixel_background.mp4';
 
 
@@ -63,9 +63,9 @@ const Hero = () => {
                     Your browser does not support the video tag.
                 </video>
 
-                {/* <div className="text-box">
-                    <img src={Title}></img>
-                </div> */}
+                <div className="text-box">
+                    <img src={Title} className="title"></img>
+                </div>
 
                 <div className="nft-box">
                     <div className="video-box">

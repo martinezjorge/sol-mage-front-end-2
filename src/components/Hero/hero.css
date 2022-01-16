@@ -52,6 +52,13 @@ video {
         bottom: 48%;
 }
 
+.title {
+    margin-top: 3rem;
+    z-index: 5;
+    width: 30rem;
+    height: 10rem;
+}
+
 .text-box h1 {
     font-size: 2rem;
     font-family: 'Inter', sans-serif;
