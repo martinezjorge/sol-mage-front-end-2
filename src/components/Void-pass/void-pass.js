@@ -1,7 +1,7 @@
 // import React from "react";
 import React, { useEffect, useRef, useState } from "react";
-import  "./void-pass.css"
-// import Nft from '../../assets/img/voidpass.png';
+import "./void-pass.css"
+import Nfts from '../../assets/img/SolMage500500.gif';
 import Table from '../../assets/img/table.png';
 
 
@@ -54,61 +54,65 @@ const VoidPass = () => {
             <div className="section">
                 <div className="left">
 
-                <video className="video-nft-two" autoplay="autoplay" muted loop controls>
+                    <div className="video-nft-two">
+                        <img src={Nfts}></img>
+                    </div>
+
+                    {/* <video className="video-nft-two" autoplay="autoplay" muted loop controls>
                 <source src="https://res.cloudinary.com/mselbekk-com/video/upload/v1641776251/Image_from_iOS_gumrfp.mp4" type="video/mp4"></source>
                 <source src="https://res.cloudinary.com/mselbekk-com/video/upload/v1641776251/Image_from_iOS_gumrfp.mp4" type="video/ogg"></source>
                 Your browser does not support the video tag.
-                </video>
+                </video> */}
 
-                <div className="minting">
-                    <h3 className="departure">Departure in</h3>
+                    <div className="minting">
+                        <h3 className="departure">Departure in</h3>
                         <div className="timer">
-                        <div className="days space">
-                        <p>{timerDays}</p>
-                        <p><small>Days</small></p>
+                            <div className="days space">
+                                <p>{timerDays}</p>
+                                <p><small>Days</small></p>
+                            </div>
+                            <div className="hours space">
+                                <p>{timerHours}</p>
+                                <p><small>Hours</small></p>
+                            </div>
+                            <div className="mins space">
+                                <p>{timerMinutes}</p>
+                                <p><small>Mins</small></p>
+                            </div>
+                            <div className="secs space">
+                                <p>{timerSeconds}</p>
+                                <p><small>Secs</small></p>
+                            </div>
                         </div>
-                        <div className="hours space">
-                        <p>{timerHours}</p>
-                        <p><small>Hours</small></p>
-                        </div>
-                        <div className="mins space">
-                        <p>{timerMinutes}</p>
-                        <p><small>Mins</small></p>
-                        </div>
-                        <div className="secs space">
-                        <p>{timerSeconds}</p>
-                        <p><small>Secs</small></p>
-                        </div>
-                        </div>
-                </div>
+                    </div>
 
                 </div>
 
 
-                
+
                 <div className="right">
-                <h2>WHAT ARE SOL MAGES?</h2>
-                <p>SOL MAGES ARE YOUR ENTRY POINT INTO OUR COMMUNITY</p>
-                <h2>PERKS AND BENEFITS</h2>
-                <p>SOL MAGES ARE YOUR KEY TO UNOCKING SPECIAL FEATURES, REWARDS, GOVERNANCE, PRIVATE ACCESS, AND PERKS FROM THE SOLD MAGE PLATFORM AND ITS PARTNERS.</p>
-                <img src={Table} alt="The Void logo" className="table"></img>
-                <h2>OTHER PERKS</h2>
-                <ul>
-                    <li>FREE AIRDROPS</li>
-                    <li>Whitelisting for exclusive projects</li>
-                    <li>PRIVATE COMMUNITY ACCESS</li>
-                    <li>GOVERNANCE</li>
-                    <li>SPECIAL PERKS FROM ECOSYTEM PARTNERS</li>
-                    <li>Merchandise</li>
-                    <li>EVENT VIP ACCESS</li>
-                    <li>UNLOCK SPECIAL CONTENT</li>
-                </ul>
+                    <h2>WHAT ARE SOL MAGES?</h2>
+                    <p>SOL MAGES ARE YOUR ENTRY POINT INTO OUR COMMUNITY</p>
+                    <h2>PERKS AND BENEFITS</h2>
+                    <p>SOL MAGES ARE YOUR KEY TO UNOCKING SPECIAL FEATURES, REWARDS, GOVERNANCE, PRIVATE ACCESS, AND PERKS FROM THE SOLD MAGE PLATFORM AND ITS PARTNERS.</p>
+                    <img src={Table} alt="The Void logo" className="table"></img>
+                    <h2>OTHER PERKS</h2>
+                    <ul>
+                        <li>FREE AIRDROPS</li>
+                        <li>Whitelisting for exclusive projects</li>
+                        <li>PRIVATE COMMUNITY ACCESS</li>
+                        <li>GOVERNANCE</li>
+                        <li>SPECIAL PERKS FROM ECOSYTEM PARTNERS</li>
+                        <li>Merchandise</li>
+                        <li>EVENT VIP ACCESS</li>
+                        <li>UNLOCK SPECIAL CONTENT</li>
+                    </ul>
                 </div>
 
 
 
             </div>
-            
+
         </div>
     )
 }
