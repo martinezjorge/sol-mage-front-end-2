@@ -26,10 +26,10 @@
     /* background: red; */
 }
 
-.left {
+/* .left {
     width: 100%;
     padding-right: 3rem;
-}
+} */
 
 video.video-nft-two {
     /* max-width: 500px; */
@@ -42,31 +42,30 @@ video.video-nft-two {
     border-radius: 10px;
 }
 
-.right {
+/* .right {
     width: 100%;
-}
+} */
 
-.void-pass ul {
+/* .void-pass ul {
        line-height: 55px; 
-}
+} */
 
-.void-pass li {
+/* .void-pass li {
     font-size: 0.8rem;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
-    /* line-height: 55px; */
     padding: 5px 0 5px 18px;
-}
+} */
 
-.void-pass img {
+/* .void-pass img {
     width: 35rem;
     height: 35rem;
-}
+} */
 
-.right li:before {
+/* .right li:before {
     content: "";
     display: inline-block;
     margin: 13px 18px -5px -18px;
@@ -74,12 +73,56 @@ video.video-nft-two {
     height: 15px;
     background: url('https://res.cloudinary.com/mselbekk-com/image/upload/v1641893548/check_3_1_dorbkg.png');
     background-repeat: no-repeat;
-}
+} */
 
 .table {
     padding-bottom: 4rem;
     width: 100%;
 }
+
+
+/********** Lore *************/
+
+.pvp {
+    display: flex;
+    padding: 5rem;
+    /* flex-flow: row wrap; */
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 3rem;
+    width: 100%;
+}
+
+.pvp-img {
+    height: 40rem;
+    width: 60rem;
+}
+
+.pvp-text {
+    width: 20rem;
+    height: 4rem;
+}
+
+.raid {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 3rem;
+    width: 100%;
+}
+
+.raid-img {
+    height: 40rem;
+    width: 40rem;
+}
+
+.raid-text {
+    width: 30rem;
+}
+
+
+/********** Lore *************/
+
 
 /************MINTING************/
 
@@ -98,12 +141,8 @@ video.video-nft-two {
 
 .minting h3 {
     /* color: #fff!important;
-    background: none;
-    -webkit-text-fill-color:none;
-        -moz-background-clip: none;
-        -webkit-background-clip: none; */
-        font-size: 1.2rem;
-        font-family: 'Inter', sans-serif;
+    background: none;/********** Lore *************/
+
         font-weight: 800;
         text-transform: uppercase;
         letter-spacing: 6px;
@@ -124,7 +163,8 @@ video.video-nft-two {
 
 #void-pass .timer p {
   font-size: 1.2rem;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;/********** Lore *************/
+
   font-weight: 900;
   text-transform: uppercase;
   margin-bottom: 0rem!important;

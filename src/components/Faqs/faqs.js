@@ -43,17 +43,13 @@ const Faq = () => (
 );
 
 const DummyContentOne = () => (
-    <ul>
-      <li>
-        Mint Date: 1/12/22
-      </li>
-      <li>
-        Mint Price: 0.1 Sol
-      </li>
-      <li>
-        Supply: 666 Sol Mages
-      </li>
-    </ul>
+    <p>
+      Mint Date: 1/12/22
+      <br />
+      Mint Price: 0.1 Sol
+      <br />
+      Supply: 666 Sol Mages
+    </p>
 );
 
 const DummyContentTwo = () => (
@@ -69,19 +65,13 @@ const DummyContentThree = () => (
 );
 
 const DummyContentFour = () => (
-    <ul>
-      <li>
-        Help shape the future of Sol Mage Society by being granted access to the exclusive Lich Dao discord channel where your feedback will impact upcoming changes by holding a treasure chest mage! 
-      </li>
-      <br/>
-      <li>
-        These chests give the holder free drops, more access, and a special Phylactery to transform your mage into a powerful Lich Mage. 
-      </li>
-      <br/>
-      <li>
-        Holding a treasure chest will grant whitelist opportunities and airdrops to GEN 1 releases in addition to revenue sharing for all future collections. Treasure chests will grant access to future projects created in the Sol Mage Metaverse and are highly sought after.
-      </li>
-    </ul>
+  <p>
+    Help shape the future of Sol Mage Society by being granted access to the exclusive Lich Dao discord channel where your feedback will impact upcoming changes by holding a treasure chest mage! 
+    <br/>
+    These chests give the holder free drops, more access, and a special Phylactery to transform your mage into a powerful Lich Mage. 
+    <br/>
+    Holding a treasure chest will grant whitelist opportunities and airdrops to GEN 1 releases in addition to revenue sharing for all future collections. Treasure chests will grant access to future projects created in the Sol Mage Metaverse and are highly sought after.
+  </p>
 );
 
 const DummyContentFive = () => (
