@@ -23,7 +23,7 @@ const VoidPass = () => {
             <br />
 
             <h2>PvP Arena</h2>
-            
+
             <div className="pvp">
                 <img className="pvp-img" src={pvpArena}></img>
                 <p className="pvp-text">Battle in the Sol Mage PvP Arena to increase your leaderboard rankings to win monthly prizes</p>
@@ -44,22 +44,24 @@ const VoidPass = () => {
 
             <h2>Lich Mages & The Lich Dao: Exclusive Revenue Sharing & Whitelist Opportunities</h2>
 
-            <div>
-                <div>
+            <h2>Chest Mages</h2>
+
+            <div className="chestMage">
+                <div className="chestMage-text">
                     <p>Out of the 666 total supply of Sol Mages, 66 NFTs will include a rare treasure chest.</p>
-                    <br />
+                    {/* <br /> */}
                     <p>Help shape the future of Sol Mage Society by being granted access to the exclusive Lich Dao discord channel where your feedback will impact upcoming changes by holding a treasure chest mage! </p>
                 </div>                
-                <img src={chestMage}></img>
+                <img className="chestMage-image"src={chestMage}></img>
             </div>
 
-            <div>
-                <div>
-                    <img src={phylactery}></img>
-                </div>
-                <div>
+            <h2>Phylacteries</h2>
+
+            <div className="phylactery">
+                <img className="phylactery-img" src={phylactery}></img>
+                <div className="phalactery-text">
                     <p>These chests give the holder free drops, more access, and a special Phylactery to transform your mage into a powerful Lich Mage. </p>
-                    <br />
+                    {/* <br /> */}
                     <p>Holding a treasure chest will grant whitelist opportunities and airdrops to GEN 1 releases in addition to revenue sharing for all future collections. Treasure chests will grant access to future projects created in the Sol Mage Metaverse and are highly sought after.</p>
                 </div>
             </div>

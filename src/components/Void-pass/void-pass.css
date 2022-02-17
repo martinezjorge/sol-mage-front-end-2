@@ -113,7 +113,7 @@ video.video-nft-two {
     gap: 3rem;
     width: 100%;
     background-color: black;
-    border-radius: 3rem;
+        border-radius: 3rem;
     border: 0.1rem white solid;
     padding: 5rem;
 }
@@ -130,6 +130,48 @@ video.video-nft-two {
 .crawl-text {
     width: 80rem;
     background-color: black;
+}
+
+.chestMage {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+    width: 100%;
+    background-color: black;
+        border-radius: 3rem;
+    border: 0.1rem white solid;
+    padding: 5rem;
+}
+
+.chestMage-text {
+
+}
+
+.chestMage-image {
+
+    border: 0.1rem white solid;
+    border-radius: 3rem;
+    width: 25rem;
+
+}
+
+.phylactery {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+    width: 100%;
+    background-color: black;
+        border-radius: 3rem;
+    border: 0.1rem white solid;
+    padding: 5rem;
+}
+
+.phylactery-img {
+    border: 0.1rem white solid;
+    border-radius: 3rem;
+    width: 25rem;
 }
 
 
