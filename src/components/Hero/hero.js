@@ -3,6 +3,7 @@ import "./hero.css"
 import Title from "../../assets/img/transparent_title.png";
 import PixelBackground from '../../assets/video/pixel_background.mp4';
 import Nfts from '../../assets/img/SolMage500500.gif';
+import banner from "../../assets/img/banner.jpg";
 
 
 const Hero = () => {
@@ -21,18 +22,21 @@ const Hero = () => {
 
                 <div class="centerpiece">
 
-                    <div className="nft-gifs">
-                        <img src={Nfts}></img>
+                    <img src={Title} className="title"></img>
+                    
+                    <div className="text-box-container">
+                        <div className="nft-gifs">
+                            <img src={Nfts}></img>
+                        </div>
+
+                        <div className="text-box">
+                            <p>&ldquo;Mages do not simply die, they transform...&rdquo;</p>
+                            <p>Sol Mage Society is a collection of pixelated NFTs featuring a unique name, set of attributes, and even spellbook bringing specific attacks used to battle in the Sol Mage Arena. </p>
+                        </div>
                     </div>
 
-                    <div className="text-box">
-                        <img src={Title} className="title"></img>
-                        <p>&ldquo;Mages do not simply die, they transform...&rdquo;</p>
-                        <p>Sol Mage Society is a collection of pixelated NFTs featuring a unique name, set of attributes, and even spellbook bringing specific attacks used to battle in the Sol Mage Arena. </p>
-                        <a href="https://www.magiceden.io/marketplace/sol_mage_society" className="link-button eden-button"><button></button>Magic Eden</a>
-                        <a href="https://discord.com/invite/solmage" className="link-button discord-button"><button></button>Discord</a>
-                    </div>
-
+                    <a href="https://www.magiceden.io/marketplace/sol_mage_society" className="link-button eden-button">Magic Eden</a>
+                    <a href="https://discord.com/invite/solmage" className="link-button discord-button">Discord</a>
                 </div>
 
             </div>

@@ -52,7 +52,7 @@ video.video-nft-two {
     /* flex-flow: row wrap; */
     justify-content: space-evenly;
     align-items: center;
-    gap: 3rem;
+    /* gap: 1rem; */
     width: 100%;
     background-color: black;
     border-radius: 3rem;
@@ -63,6 +63,8 @@ video.video-nft-two {
 .pvp-img {
     height: 40rem;
     width: 60rem;
+    border: 0.1rem solid white;
+    border-radius: 3rem;
 }
 
 .pvp-text {
