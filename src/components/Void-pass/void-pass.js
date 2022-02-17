@@ -23,7 +23,7 @@ const VoidPass = () => {
             <br />
 
             <h2>PvP Arena</h2>
-
+            
             <div className="pvp">
                 <img className="pvp-img" src={pvpArena}></img>
                 <p className="pvp-text">Battle in the Sol Mage PvP Arena to increase your leaderboard rankings to win monthly prizes</p>
@@ -40,7 +40,7 @@ const VoidPass = () => {
 
             <h2>Infinite Dungeon Crawl Mode</h2>
 
-            <p>Climb up Sol Mage Tower levels in the Infinite Dungeon Crawl Mode. This mode will allow you to craft a diverse team of mages based on the set of parameters dictated by the Dungeon Crawl settings. Players that have an extensive collection of Sol Mages will have the upper hand as monsters will be weak to certain elements so crafting the optimal team will be crucial to get to the highest levels where the best prizes are awarded. </p>
+            <p className="crawl-text">Climb up Sol Mage Tower levels in the Infinite Dungeon Crawl Mode. This mode will allow you to craft a diverse team of mages based on the set of parameters dictated by the Dungeon Crawl settings. Players that have an extensive collection of Sol Mages will have the upper hand as monsters will be weak to certain elements so crafting the optimal team will be crucial to get to the highest levels where the best prizes are awarded. </p>
 
             <h2>Lich Mages & The Lich Dao: Exclusive Revenue Sharing & Whitelist Opportunities</h2>
 
