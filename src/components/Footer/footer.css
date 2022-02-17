@@ -29,10 +29,10 @@
     font-family: "Open Sans", sans-serif;
   }
   
-  #links a {
+  /* #links a {
     min-width: 50px;
     min-height: 52px;
-  }
+  } */
   
   #links button {
     min-width: 50px;

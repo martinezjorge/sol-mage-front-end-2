@@ -20,8 +20,8 @@ const Crew = () => {
                         <img src={CartoonThree} alt="The Void logo"></img>
                     </div>
                     <div className="crew-names">
-                        <h3>Captain</h3>
-                        <h4>Andy</h4>
+                        <h3>Creator</h3>
+                        <h4>IPutOnMyRobe&WizardHat</h4>
                     </div>
                 </div>
 

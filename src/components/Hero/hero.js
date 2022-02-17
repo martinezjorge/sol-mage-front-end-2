@@ -6,7 +6,7 @@ import "./hero.css"
 import ReactPlayer from "react-player"
 import Title from "../../assets/img/transparent_title.png";
 import PixelBackground from '../../assets/video/pixel_background.mp4';
-
+import Nfts from '../../assets/img/SolMage500500.gif';
 
 
 const Hero = () => {
@@ -65,6 +65,10 @@ const Hero = () => {
 
                 <div className="text-box">
                     <img src={Title} className="title"></img>
+                </div>
+
+                <div className="nft-gifs">
+                    <img src={Nfts}></img>
                 </div>
 
                 <div className="nft-box">
