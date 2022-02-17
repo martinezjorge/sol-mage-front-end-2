@@ -72,7 +72,7 @@ const Crew = () => {
                         <img src={CartoonThree} alt="The Void logo"></img>
                     </div>
                     <div className="crew-names">
-                        <h3>CHIEF NAVIGATOR</h3>
+                        <h3>Marketing/Partnerships</h3>
                         <h4>DegenMageCollector</h4>
                     </div>
                 </div>
