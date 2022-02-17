@@ -71,17 +71,15 @@ const VoidPass = () => {
 
             <p>Sol Mage Arena is a strategic game of chance with magical spells, unique visuals, and heart pounding choices.</p>
 
-            <img src={howTo}></img>
+            <img className="howTo-img" src={howTo}></img>
 
             <p>The gameplay mechanics take inspiration from Yomi, Japanese for “reading” meaning to read your opponent or anticipate their next action. </p>
 
 
-            <div>
-                <div>
-                    <img src={guardPhysical}></img>
-                </div>
+            <div className="battle">
+                <img className="battle-img" src={guardPhysical}></img>
 
-                <div>
+                <div className="battle-text">
                     <p>Sol Mage battles involve attacking and defending three aspects. </p>
 
                     <p>Resolve, Physical, and Spirit.</p>
@@ -90,8 +88,8 @@ const VoidPass = () => {
                 </div>
             </div>
 
-            <div>
-                <div className="left">
+            <div className="abilities">
+                <div className="abilities-text">
                     <p>Unique spells combine into unique spellbooks built by your personal NFT’s attributes.</p>
 
                     <p>Each decision is meaningful, every outcome decided by skill alone.</p>
@@ -100,7 +98,7 @@ const VoidPass = () => {
 
                 </div>
 
-                <div className="right">
+                <div className="abilities-img">
                     <img src={ability}></img>
                 </div>
 
