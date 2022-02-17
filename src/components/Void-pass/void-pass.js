@@ -16,7 +16,7 @@ const VoidPass = () => {
                 <h1>Lore</h1>
             </div>
 
-            <h2>SOL Mage Arena: PvP/PvE Battles For Leaderboard Rankings, Loot Boxes, and Tokens</h2>
+            <h2><u>SOL Mage Arena: PvP/PvE Battles For Leaderboard Rankings, Loot Boxes, and Tokens</u></h2>
 
             <p>Unique combat mechanics anticipating your opponents offensive and defensive choices can lead to victory!</p>
 
@@ -25,8 +25,8 @@ const VoidPass = () => {
             <h2>PvP Arena</h2>
 
             <div className="pvp">
-                <img className="pvp-img" src={pvpArena}></img>
                 <p className="pvp-text">Battle in the Sol Mage PvP Arena to increase your leaderboard rankings to win monthly prizes</p>
+                <img className="pvp-img" src={pvpArena}></img>
             </div>
 
             <h2>PvE Raid Boss Fights</h2>
@@ -42,7 +42,7 @@ const VoidPass = () => {
 
             <p className="crawl-text">Climb up Sol Mage Tower levels in the Infinite Dungeon Crawl Mode. This mode will allow you to craft a diverse team of mages based on the set of parameters dictated by the Dungeon Crawl settings. Players that have an extensive collection of Sol Mages will have the upper hand as monsters will be weak to certain elements so crafting the optimal team will be crucial to get to the highest levels where the best prizes are awarded. </p>
 
-            <h2>Lich Mages & The Lich Dao: Exclusive Revenue Sharing & Whitelist Opportunities</h2>
+            <h2><u>Lich Mages & The Lich Dao: Exclusive Revenue Sharing & Whitelist Opportunities</u></h2>
 
             <h2>Chest Mages</h2>
 
@@ -75,6 +75,7 @@ const VoidPass = () => {
 
             <p>The gameplay mechanics take inspiration from Yomi, Japanese for “reading” meaning to read your opponent or anticipate their next action. </p>
 
+            <h2>Mechanics</h2>
 
             <div className="battle">
                 <img className="battle-img" src={guardPhysical}></img>
@@ -87,6 +88,8 @@ const VoidPass = () => {
                     <p>It’s impossible to defend all aspects at once, so anticipating your opponents defense and attack choices is the true key to victory.</p>
                 </div>
             </div>
+
+            <h2>Abilities</h2>
 
             <div className="abilities">
                 <div className="abilities-text">

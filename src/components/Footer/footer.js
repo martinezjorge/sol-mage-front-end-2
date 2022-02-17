@@ -1,6 +1,5 @@
 import React from "react";
 import "./footer.css"
-import magic_eden from '../../assets/img/magic_eden.png';
 import twitter from '../../assets/img/twitter.png';
 import discord from '../../assets/img/discord.png';
 
