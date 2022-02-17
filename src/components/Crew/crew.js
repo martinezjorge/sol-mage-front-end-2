@@ -73,7 +73,7 @@ const Crew = () => {
                     </div>
                     <div className="crew-names">
                         <h3>CHIEF NAVIGATOR</h3>
-                        <h4>Joseph</h4>
+                        <h4>DegenMageCollector</h4>
                     </div>
                 </div>
 
