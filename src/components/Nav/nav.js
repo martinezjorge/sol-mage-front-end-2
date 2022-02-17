@@ -4,16 +4,32 @@ import Logo from '../../assets/img/White.png';
 import Wallet from '../../assets/img/wallet.png';
 
 const nav = () => {
+
+    // let navbar = document.getElementById("navbar");
+    // let sticky = document.getElementById("navbar-container");
+
+    // let onScroll = () => {
+    //     if (window.pageYOffset >=  sticky) {
+            
+    //     }
+    // }
+
+
     return (
-        <div className="nav-container">
+        <div className="nav-container sticky">
             <a className="logo" href="#"><img src={Logo} alt="The Void logo" className="void-logo"></img></a>
             <nav className="navigation">
                 <ul>
-                    <li><a href="#void-pass">Our Story</a></li>
-                    <li><a href="#the-artist">Our Artist</a></li>
-                    <li><a href="#the-crew">Our Team</a></li>
-                    <li><a href="#the-roadmap">Our Roadmap</a></li>
+                    <li><a href="#void-pass">Lore</a></li>
+                    <li><a href="#the-crew">Council</a></li>
+                    <li><a href="#the-artist">Art</a></li>
                     <li><a href="#faq">FAQ</a></li>
+                    <li><a href="https://www.magiceden.io/marketplace/sol_mage_society">Buy</a></li>
+                    <li><a href="https://medium.com/@solmagesociety">Dev Log</a></li>
+                    <li><a href="#">Battle</a></li>
+                    <li><a href="https://solmagearena.netlify.app/">Arena</a></li>
+                    <li><a href="#">Raid</a></li>
+                    <li><a href="#the-roadmap">Roadmap</a></li>
                 </ul>
             </nav>
             <div className="wallet">

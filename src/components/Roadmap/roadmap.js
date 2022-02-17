@@ -7,14 +7,14 @@ const Roadmap = () => {
     return (
         <div className="roadmap" id="the-roadmap">
             <div className="title">
-                <h2>Roadmap</h2>
+                <h1>Roadmap</h1>
             </div>
 
             <div className="section">
             <img src={RoadmapImage} alt="The Void logo" className="roadmap-image"></img>
             </div>
         </div>
-    )
+    );
 }
 
-export default Roadmap
+export default Roadmap;

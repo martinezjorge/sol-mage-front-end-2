@@ -51,18 +51,57 @@ const VoidPass = () => {
 
     return (
         <div className="void-pass" id="void-pass">
-            <div className="section">
+            <div className="title">
+                <h1>Lore</h1>
+            </div>
+
+            <h2>SOL Mage Arena: PvP/PvE Battles For Leaderboard Rankings, Loot Boxes, and Tokens</h2>
+
+
+            <ul>
+
+                <li>Unique combat mechanics anticipating your opponents offensive and defensive choices can lead to victory!</li>
+                <br />
+                <li>PvP Arena: Battle in the Sol Mage PvP Arena to increase your leaderboard rankings to win monthly prizes</li>
+                <br />
+                <li>PvE Raid Boss Fights: The Sol Mage Arena metaverse features an array of high powered Raid Boss monsters that only Sol Mages can defeat. Boss fights will be epic battles featuring either a grand monster from the Sol Mage metaverse or even a pixelated monster from one of our partner projects. These battles give utility to all Sol Mage holders where every participant will be given a loot box at the end and the more mages you hold the more damage you can inflict. The more damage you do, the higher probability of winning one of the grand prizes! Every mage will be able to attack once with the server time reset reschedule. At the end of the battle, a loot box will be awarded to all participants. Some of the items can include a Poap (Proof of Attendance Protocol) NFT commemorating the experience, $SMAGE tokens which can be used for item upgrades, pet NFTs, $SOL, and even grand prizes where a lucky winner will be able to claim a valuable partner project NFT.</li>            
+                <br />
+                <li>(GIF of BOSS MONSTERS CREATED BY JOSH FOR IMAGE) </li>
+                <br />
+                <li>Infinite Dungeon Crawl Mode: Climb up Sol Mage Tower levels in the Infinite Dungeon Crawl Mode. This mode will allow you to craft a diverse team of mages based on the set of parameters dictated by the Dungeon Crawl settings. Players that have an extensive collection of Sol Mages will have the upper hand as monsters will be weak to certain elements so crafting the optimal team will be crucial to get to the highest levels where the best prizes are awarded. </li>
+
+            </ul>
+
+            <h2>Lich Mages & The Lich Dao: Exclusive Revenue Sharing & Whitelist Opportunities</h2>
+
+            <ul>
+                <li>Out of the 666 total supply of Sol Mages, 66 NFTs will include a rare treasure chest.</li>
+
+                <br />
+
+                <li>Help shape the future of Sol Mage Society by being granted access to the exclusive Lich Dao discord channel where your feedback will impact upcoming changes by holding a treasure chest mage! </li>
+
+                <br />
+
+                <li>These chests give the holder free drops, more access, and a special Phylactery to transform your mage into a powerful Lich Mage. </li>
+                
+                <br />
+
+                <li>Holding a treasure chest will grant whitelist opportunities and airdrops to GEN 1 releases in addition to revenue sharing for all future collections. Treasure chests will grant access to future projects created in the Sol Mage Metaverse and are highly sought after.</li>
+            </ul>
+
+            <h2><u>How To Play</u></h2>
+
+            <p>Sol Mage Arena is a strategic game of chance with magical spells, unique visuals, and heart pounding choices.</p>
+
+            {/* <img src={}></img> */}
+
+            {/* <div className="section">
                 <div className="left">
 
                     <div className="video-nft-two">
                         <img src={Nfts}></img>
                     </div>
-
-                    {/* <video className="video-nft-two" autoplay="autoplay" muted loop controls>
-                <source src="https://res.cloudinary.com/mselbekk-com/video/upload/v1641776251/Image_from_iOS_gumrfp.mp4" type="video/mp4"></source>
-                <source src="https://res.cloudinary.com/mselbekk-com/video/upload/v1641776251/Image_from_iOS_gumrfp.mp4" type="video/ogg"></source>
-                Your browser does not support the video tag.
-                </video> */}
 
                     <div className="minting">
                         <h3 className="departure">Departure in</h3>
@@ -95,7 +134,6 @@ const VoidPass = () => {
                     <p>SOL MAGES ARE YOUR ENTRY POINT INTO OUR COMMUNITY</p>
                     <h2>PERKS AND BENEFITS</h2>
                     <p>SOL MAGES ARE YOUR KEY TO UNOCKING SPECIAL FEATURES, REWARDS, GOVERNANCE, PRIVATE ACCESS, AND PERKS FROM THE SOLD MAGE PLATFORM AND ITS PARTNERS.</p>
-                    <img src={Table} alt="The Void logo" className="table"></img>
                     <h2>OTHER PERKS</h2>
                     <ul>
                         <li>FREE AIRDROPS</li>
@@ -109,9 +147,7 @@ const VoidPass = () => {
                     </ul>
                 </div>
 
-
-
-            </div>
+            </div> */}
 
         </div>
     )

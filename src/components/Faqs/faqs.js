@@ -4,16 +4,16 @@ import { Accordion, AccordionItem } from 'react-light-accordion';
 import 'react-light-accordion/demo/css/index.css';
 
 const Faq = () => (
-  <div className="faqs" id="faq">
-    <h2>FAQs</h2>
+  <div id="faq">
+    <h1>FAQs</h1>
     <div className="section-faq">
       <Accordion atomic={true}>
 
-        <AccordionItem title="How much and when is mint?">
+        <AccordionItem title="General Info">
           <DummyContentOne />
         </AccordionItem>
 
-        <AccordionItem title="What is the supply?">
+        <AccordionItem title="Why Was The Mint Cost So Low?">
           <DummyContentTwo />
         </AccordionItem>
 
@@ -21,19 +21,19 @@ const Faq = () => (
           <DummyContentThree />
         </AccordionItem>
 
-        <AccordionItem title="What Is The Utility of the Lich Mages?">
+        <AccordionItem title="What Are The Benefits For Treasure Chests?">
           <DummyContentFour />
         </AccordionItem>
 
-        <AccordionItem title="Will There Be Royality Sharing">
+        <AccordionItem title="What Are The Lich Mages?">
           <DummyContentFive />
         </AccordionItem>
 
-        <AccordionItem title="Will There Be A Game & Utility Token?">
+        <AccordionItem title="Will There Be Royalty Sharing?">
           <DummyContentSix />
         </AccordionItem>
 
-        <AccordionItem title="Will There Be A GEN 1 NFT?">
+        <AccordionItem title="For The PvP/PvE Game Modes Is There Guides/Move Lists?">
           <DummyContentSeven />
         </AccordionItem>
 
@@ -43,51 +43,66 @@ const Faq = () => (
 );
 
 const DummyContentOne = () => (
-  <p>
-    0.1 Sol and Mint Is Live 1/12/2022 at 6:30 UTC
-  </p>
+    <ul>
+      <li>
+        Mint Date: 1/12/22
+      </li>
+      <li>
+        Mint Price: 0.1 Sol
+      </li>
+      <li>
+        Supply: 666 Sol Mages
+      </li>
+    </ul>
 );
 
 const DummyContentTwo = () => (
   <p>
-    666 Sol Mage Society NFTs
+    Sol Mage Society was stealth launched on 1/12/22. We didn’t want a large pre-marketing push and instead took a grassroots approach for the project. 
   </p>
 );
 
 const DummyContentThree = () => (
   <p>
-    66/666 out of the supply will contain treasure chests on your NFT.
-    <br />
-    All treasure chest holders will be airdropped a Lich Formula which can be used to transform your NFT into a special Lich Mage NFT
+    66/666 out of the supply contains treasure chests as a background layer on your Sol Mage NFT. 
   </p>
 );
 
 const DummyContentFour = () => (
-  <p>
-    Lich Mages will be given access to a special DAO with alpha access to partner projects. In addition, 33% of secondary fees will be airdropped to Lich Mage holders.
-  </p>
+    <ul>
+      <li>
+        Help shape the future of Sol Mage Society by being granted access to the exclusive Lich Dao discord channel where your feedback will impact upcoming changes by holding a treasure chest mage! 
+      </li>
+      <br/>
+      <li>
+        These chests give the holder free drops, more access, and a special Phylactery to transform your mage into a powerful Lich Mage. 
+      </li>
+      <br/>
+      <li>
+        Holding a treasure chest will grant whitelist opportunities and airdrops to GEN 1 releases in addition to revenue sharing for all future collections. Treasure chests will grant access to future projects created in the Sol Mage Metaverse and are highly sought after.
+      </li>
+    </ul>
 );
 
 const DummyContentFive = () => (
   <p>
-    Yes!
-    33% of royalties will be aidropped to Lich Mage Holders
-    33% of royalties will be dropped to all Sol Mage Society Holders
-    33% of royalties will be sent to the development treasury.
+    Lich Mages is a special in-game ability that allows you to transform your Sol Mage NFT into a Lich Mage. Doing so unlocks a new list of abilities that are highly powerful but come with a cost being that you are much more vulnerable to damage. To gain this ability you must obtain a Lich Phylactery which will be airdropped to all treasure chest holders or obtain one on the secondary market (Magic Eden.) The airdrop will be announced shortly for treasure chest holders so keep an eye out on the discord server for updates!
   </p>
 );
 
 const DummyContentSix = () => (
   <p>
-    Yes!
-    A PvP game where you can battle your Sol Mage Society NFT is in development. Early teasers will be shared soon.
-    The utility token $SMAGE will be the lifeblood of the SMS ecosystem. More details will be dropped in the next few days.
+    33% of royalties will be airdropped to Treasure Chest holders
+    <br/>
+    33% of royalties will be dropped to all Sol Mage Society Holders
+    <br/>
+    33% of royalties will be sent to the development treasury.
   </p>
 );
 
 const DummyContentSeven = () => (
   <p>
-    Yes. More details will be available very soon
+    This will be coming soon. Every Sol Mage NFT has a variety of different spells and abilities. Theorycrafting meta abilities and skillsets will be a huge part about climbing the top of the Sol Mage leaderboards and providing the most damage output to get the best prizes in the PvE game modes. 
   </p>
 );
 

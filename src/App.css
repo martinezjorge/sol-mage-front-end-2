@@ -35,15 +35,20 @@ h1 {
   font-size: 2rem;
   font-family: 'Inter', sans-serif;
   font-weight: 900;
-  color: #fff;
+  /* color: #fff; */
   text-transform: uppercase;
+  background: -webkit-linear-gradient(73deg, #5E03C6, #FC4EFC);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
 }
 
 h2 {
   font-size: 1.2rem;
   font-family: 'Inter', sans-serif;
   font-weight: 800;
-  /* color: #B92EE5; */
   text-transform: uppercase;
   letter-spacing: 6px;
   margin-bottom: 2rem;
@@ -51,9 +56,9 @@ h2 {
   background: -webkit-linear-gradient(73deg, #5E03C6, #FC4EFC);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
 }
 
 p {

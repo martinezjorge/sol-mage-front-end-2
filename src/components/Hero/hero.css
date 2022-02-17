@@ -3,19 +3,12 @@
 .hero {
     width: 100%;
     height: 100%;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    background: #000;
-    margin-top: -100px;
-    /* display: none; */
+    margin-top: -90px;
 }
 
-.space-box {
+.hero-container {
     width: 100%;
     height: 100vh;
-    background-position: 50%;
-    background-size: cover;
     display: flex;
     justify-content: center;
     position: relative;
@@ -30,33 +23,51 @@
 
 video {
     object-fit: cover;
-    /* overflow-x: hidden; */
 }
+
 
 /************BACKGROUND************/
 
+.centerpiece {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    padding:  4rem;
+    background: black;
+    border-radius: 1rem;
+    border: 0.1rem white solid;
+    z-index: 50;
+    width: 65rem;
+    height: 40rem;
+}
 
-
-
-.text-box {
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        /* width: 100%;
-        height: 100%; */
-        position: absolute;
-        /* top: 130px; */
-        /* width: 0.3rem;
-        height: 0.1rem; */
-        bottom: 48%;
+.link-button {
+    font-size: 0.7rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border:none;
 }
 
 .title {
     margin-top: 3rem;
-    z-index: 5;
-    width: 30rem;
-    height: 10rem;
+    z-index: 50;
+    width: 20rem;
+    height: 7rem;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    min-width: 10rem;
+    width: 45rem;
+    padding-right: 1.5rem;
 }
 
 .text-box h1 {
@@ -68,35 +79,64 @@ video {
     letter-spacing: 15px;
 }
 
+.text-box>a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.text-box>img {
+    margin-bottom: 2rem;
+}
+
+.text-box>p:first-child {
+    margin-bottom: 8rem;
+}
+
+.text-box>.eden-button{
+    margin-bottom: 0.5rem;
+    background-color: #5E03C6;
+}
+
+.text-box>.discord-button {
+    background-color: #5E03C6;
+}
+
+.eden-button:active {
+    color: #5E03C6;
+    background-color: white;
+}
+
+.discord-button:active {
+    color: #5E03C6;
+    background-color: white;
+}
 
 /************TEXT BOX************/
 
 
 /************NFT BOX************/
 
-
 .nft-box {
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 100%;
-    height: 100%; */
     position: absolute;
-    /* top: 340px; */
     bottom: 35%;
     display: none;
 }
 
 .nft-gifs {
-    /* max-width: 500px; */
     width: 100%;
-     /* position: relative;
-    margin-top: 176px; */
-    /* box-shadow: 1px 1px 30px 2px rgba(0, 0, 0, 0.5); */
-    -webkit-box-shadow: 0px 0px 15px 5px #000000; 
-    box-shadow: 0px 0px 15px 5px #000000;
     border-radius: 10px;
+    z-index: 100;
+    align-self: center;
+}
+
+.nft-gifs>img {
+    width: 25rem;
+    border-radius: 1rem;
+    border: 0.1rem white solid;
 }
 
 video.video-nft {
@@ -109,76 +149,6 @@ video.video-nft {
 }
 
 /************NFT BOX************/
-
-
-/************MINTING************/
-/* 
-.minting{
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    bottom:20px;
-    height: 200px;
-    padding: 0px 20px;
-    width: 100%;
-    height: 100%;
-    background-color: #3F33D5;
-    background-image: url('https://res.cloudinary.com/mselbekk-com/image/upload/v1641832236/planet_sphere_2_up0hjt.png');
-    min-height: 500px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.minting h3 {
-    color: #fff!important;
-    background: none;
-    -webkit-text-fill-color:none;
-        -moz-background-clip: none;
-        -webkit-background-clip: none;
-        font-size: 1.2rem;
-        font-family: 'Inter', sans-serif;
-        font-weight: 800;
-        text-transform: uppercase;
-        letter-spacing: 6px;
-        margin-bottom: 2rem;
-        color: #fff;
-}
-
-#void .timer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    max-width: 600px;
-    width: 100%;
-    margin: auto;
-    margin-top: 0px;
-    grid-gap: 1rem;
-    text-align: center;
-}
-
-#void .timer p {
-  font-size: 1.5rem;
-  font-family: 'Inter', sans-serif;
-  font-weight: 900;
-  text-transform: uppercase;
-  margin-bottom: 0rem!important;
-}
-
-#void .timer p small {
-  font-size: .8rem;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-#void .space {
-    background: linear-gradient(51.33deg, #5E03C6 39.03%, #3F33D5 100.2%);
-    border-radius: 10px;
-    padding: 2rem;
-} */
-
-/************MINTING************/
 
 @media only screen and (max-width: 900px) {
 
@@ -200,12 +170,6 @@ video.video-nft {
         font-size: 1rem;
     }
 
-    /* .space-box {
-        background-image: url('https://res.cloudinary.com/mselbekk-com/image/upload/v1641950276/Group_77_ceebwh.png');
-        background-repeat: no-repeat;
-        background-position: center;
-    } */
-
     .minting{
         bottom: -40px;
     }
@@ -220,7 +184,6 @@ video.video-nft {
 
 
 }
-
 
 
 @media only screen and (max-width: 700px) {
@@ -240,68 +203,13 @@ video.video-nft {
       font-size: .5rem;
     }
   
-    }
-  
-    @media only screen and (max-width: 360px) {
-  
-      #void {
+}
+
+@media only screen and (max-width: 360px) {
+
+    #void {
         padding: 1rem;
-      }
-  
     }
-  
 
-
-
-
-
-
-/* .text-box img {
-    width: 280px;
-    margin-top: 146px;
-} */
-
-/* .video-box {
-    width: 200px;
-    position: relative;
-} */
-
-/* .video-box video {
-    width: 300px;
-    height: 300px;
-    position: relative;
-    margin-top: 146px;
-} */
-
-
-
-/* 
-.text-box .mint {
-    margin-top: 30px;
-    margin: auto;
-    width: 100%;
-    text-align: center;
-    position:relative;
-    background-image: url('https://res.cloudinary.com/mselbekk-com/image/upload/v1641832236/planet_sphere_2_up0hjt.png');
-    min-height: 500px;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
-
-.text-box .mint h2 {
-    margin-top: 170px; 
-    font-size: 1rem;
-    font-family: 'Inter', sans-serif;
-    font-weight: 900;
-    color: rgb(180, 180, 180);
-    text-transform: uppercase;
-    letter-spacing: 10px;
-}
-
-.text-box .mint img {
-    width: 500px;
-    margin-top: 30px;
-}
-
-     */
