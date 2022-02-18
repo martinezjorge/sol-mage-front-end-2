@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./void-pass.css";
+import "./lore.css";
 import greenGhoul from "../../assets/img/green-ghoulie.png";
 import pvpArena from "../../assets/img/pvp_arena.png";
 import chestMage from "../../assets/img/chest_mage.png";
@@ -8,19 +8,18 @@ import howTo from "../../assets/img/how_to_play.png";
 import guardPhysical from "../../assets/img/guard_physical.png";
 import ability from "../../assets/img/ability.png";
 
-const VoidPass = () => {
+const Lore = () => {
 
     return (
         <div className="void-pass" id="void-pass">
             <div className="title">
-                <h1>Lore</h1>
+                <h1>About</h1>
             </div>
 
-            <h2><u>SOL Mage Arena: PvP/PvE Battles For Leaderboard Rankings, Loot Boxes, and Tokens</u></h2>
+            <h2><u>SOL Mage Arena: PvP/PvE Battles For Leaderboard</u></h2>
+            <h2><u>Rankings, Loot Boxes, and Tokens</u></h2>
 
             <p>Unique combat mechanics anticipating your opponents offensive and defensive choices can lead to victory!</p>
-
-            <br />
 
             <h2>PvP Arena</h2>
 
@@ -111,4 +110,4 @@ const VoidPass = () => {
     )
 }
 
-export default VoidPass;
+export default Lore;

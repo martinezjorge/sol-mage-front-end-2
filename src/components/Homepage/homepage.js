@@ -1,7 +1,7 @@
 import React from "react";
 import  "./homepage.css"
 import Hero from '../../components/Hero/hero';
-import VoidPass from '../../components/Void-pass/void-pass';
+import Lore from '../../components/Lore/lore';
 import Artist from '../../components/Artist/artist';
 import Crew from '../../components/Crew/crew';
 import Roadmap from '../../components/Roadmap/roadmap';
@@ -16,7 +16,7 @@ const Homepage = () => {
         <div className="homepage">
             <Nav />
             <Hero />
-            <VoidPass />
+            <Lore />
             <Artist />
             <Crew />
             <Roadmap />

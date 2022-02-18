@@ -39,8 +39,9 @@ video {
     border-radius: 1rem;
     border: 0.1rem white solid;
     z-index: 50;
-    width: 65rem;
-    height: 40rem;
+    width: 90%;
+    /* height: 40rem; */
+    height: 80%;
 }
 
 .link-button {
@@ -86,13 +87,21 @@ video {
 }
 
 .centerpiece>a {
+    display: block;
     text-align: center;
-    /* justify-self: center; */
-    /* align-self: center; */
     text-decoration: none;
+    height: 3rem;
+    line-height: 1rem;
+    justify-content: center;
+}
+
+.anchor {
+    display: block;
+    height: 3rem;
 }
 
 .text-box>img {
+    margin-left: 3rem;
     margin-bottom: 2rem;
 }
 

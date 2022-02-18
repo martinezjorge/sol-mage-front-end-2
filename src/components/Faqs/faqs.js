@@ -5,7 +5,7 @@ import 'react-light-accordion/demo/css/index.css';
 
 const Faq = () => (
   <div id="faq">
-    <h1>FAQs</h1>
+    <h1>FAQ</h1>
     <div className="section-faq">
       <Accordion atomic={true}>
 

@@ -35,8 +35,8 @@ const Hero = () => {
                         </div>
                     </div>
 
-                    <a href="https://www.magiceden.io/marketplace/sol_mage_society" className="link-button eden-button">Magic Eden</a>
-                    <a href="https://discord.com/invite/solmage" className="link-button discord-button">Discord</a>
+                    <a href="https://www.magiceden.io/marketplace/sol_mage_society" className="anchor link-button eden-button">Magic Eden</a>
+                    <a href="https://discord.com/invite/solmage" className="anchor link-button discord-button">Discord</a>
                 </div>
 
             </div>

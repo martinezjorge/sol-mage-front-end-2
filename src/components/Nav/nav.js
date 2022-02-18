@@ -5,22 +5,12 @@ import Wallet from '../../assets/img/wallet.png';
 
 const nav = () => {
 
-    // let navbar = document.getElementById("navbar");
-    // let sticky = document.getElementById("navbar-container");
-
-    // let onScroll = () => {
-    //     if (window.pageYOffset >=  sticky) {
-            
-    //     }
-    // }
-
-
     return (
         <div className="nav-container sticky">
             <a className="logo" href="#"><img src={Logo} alt="The Void logo" className="void-logo"></img></a>
             <nav className="navigation">
                 <ul>
-                    <li><a href="#void-pass">Lore</a></li>
+                    <li><a href="#void-pass">About</a></li>
                     <li><a href="#the-crew">Council</a></li>
                     <li><a href="#the-artist">Art</a></li>
                     <li><a href="#faq">FAQ</a></li>
@@ -42,9 +32,8 @@ const nav = () => {
                 </div>
             </button>
             </div>
-            
         </div>
-    )
+    );
 }
 
 export default nav
