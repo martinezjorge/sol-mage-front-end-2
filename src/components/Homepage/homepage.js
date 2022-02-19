@@ -4,7 +4,7 @@ import Hero from '../../components/Hero/hero';
 import Lore from '../../components/Lore/lore';
 import Artist from '../../components/Artist/artist';
 import Crew from '../../components/Crew/crew';
-import Roadmap from '../../components/Roadmap/roadmap';
+// import Roadmap from '../../components/Roadmap/roadmap';
 import Faqs from '../../components/Faqs/faqs';
 import Footer from '../../components/Footer/footer';
 
@@ -19,7 +19,7 @@ const Homepage = () => {
             <Lore />
             <Artist />
             <Crew />
-            <Roadmap />
+            {/* <Roadmap /> */}
             <Faqs />
             <Footer />
         </div>
