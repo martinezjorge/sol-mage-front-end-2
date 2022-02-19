@@ -17,7 +17,7 @@ const Homepage = () => {
             <Nav />
             <Hero />
             <Lore />
-            <Artist />
+            {/* <Artist /> */}
             <Crew />
             {/* <Roadmap /> */}
             <Faqs />

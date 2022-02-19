@@ -11,11 +11,12 @@
     align-items: center;
 }
 
-.title {
-    align-self: center;
-    justify-self: center;
-    padding-bottom: 0;
-    margin-bottom: 0;
+.main-heading-1 {
+    padding-top: 2rem;
+}
+
+.main-heading-2 {
+    padding-bottom: 2.5rem;
 }
 
 .section {
@@ -41,10 +42,6 @@ video.video-nft-two {
 
 /********** Lore *************/
 
-.void-pass>h1 {
-    padding: 0;
-    margin: 0;
-}
 
 .void-pass>h2 {
     padding: 0;
@@ -59,7 +56,7 @@ video.video-nft-two {
 .pvp {
     display: flex;
     flex-direction: column;
-    padding: 5rem;
+    padding: 2rem 5rem;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
@@ -69,28 +66,46 @@ video.video-nft-two {
     margin-bottom: 2rem;
 }
 
+.pvp-header {
+    padding-bottom:1rem;
+    margin-top: 0;
+    text-align: center;
+}
+
 .pvp-img {
-    height: 40rem;
-    width: 60rem;
+    /* height: 0rem; */
+    width: 80rem;
     border: 0.1rem solid white;
     border-radius: 3rem;
 }
 
 .pvp-text {
-    width: 60rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .raid {
+    background-color: black;
+    border-radius: 3rem;
+    border: 0.1rem white solid;
+    padding: 5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.raid-header {
+    padding-bottom:3rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+.raid-inner {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 3rem;
-    width: 100%;
-    background-color: black;
-        border-radius: 3rem;
-    border: 0.1rem white solid;
-    padding: 5rem;
-    margin-bottom: 2rem;
 }
 
 .raid-img {
@@ -99,8 +114,14 @@ video.video-nft-two {
 }
 
 .raid-text {
-    width: 30rem;
+    width: 50%;
 }
+
+.raid-text>p {
+    padding: 0;
+    margin-bottom: 1.4rem;
+}
+
 .crawler {
     display: flex;
     flex-direction: column;
@@ -114,12 +135,25 @@ video.video-nft-two {
     margin-bottom: 2rem;
 }
 
-.crawl-text {
-    width: 80rem;
+.crawler-heading-1 {
+    padding-bottom: 2rem;
+}
+
+.crawler-text {
+    width: 100%;
+}
+
+.main-heading-3 {
+    padding-bottom: 2rem;
+}
+
+.main-heading-4 {
+    padding-bottom: 2rem;
 }
 
 .chestMage {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     gap: 3rem;
@@ -131,20 +165,29 @@ video.video-nft-two {
     margin-bottom: 2rem;
 }
 
-.chestMage-text {
+.chestMage-heading {
+    padding-bottom: 1rem;
+}
 
+.chestMage-textbox {
+    display: flex;
+    align-items: center;
+}
+
+.chestMage-text {
+    width: 50%;
 }
 
 .chestMage-image {
-
     border: 0.1rem white solid;
     border-radius: 3rem;
+    margin: auto;
     width: 25rem;
-
 }
 
 .phylactery {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     gap: 3rem;
@@ -154,12 +197,27 @@ video.video-nft-two {
     border: 0.1rem white solid;
     padding: 5rem;
     margin-bottom: 2rem;
+}
+
+.phylactery-heading {
+
+}
+
+.phylactery-text {
+    width: 50%;
+}
+
+.phylactery-box {
+    display: flex;
+    align-items: center;
+
 }
 
 .phylactery-img {
     border: 0.1rem white solid;
     border-radius: 3rem;
     width: 25rem;
+    margin: auto;
 }
 
 .howTo {
@@ -175,6 +233,18 @@ video.video-nft-two {
     margin-bottom: 2rem;
 }
 
+.howTo-heading {
+    padding-bottom: 1rem;
+}
+
+.howTo-caption1 {
+    padding-bottom: 0;
+}
+
+.howTo-caption2 {
+    padding-top: 3rem;
+}
+
 .howTo-img {
     width: 80rem;
     border-radius: 3rem;
@@ -183,6 +253,7 @@ video.video-nft-two {
 
 .battle {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     gap: 3rem;
@@ -194,14 +265,27 @@ video.video-nft-two {
     margin-bottom: 2rem;
 }
 
+.battle-box {
+    display: flex;
+    align-items: center;
+}
+
+.battle-text {
+    width: 50%;
+}
+
+.battle-text>p {
+    margin-bottom: 1rem;
+}
+
 .battle-img {
-    /* border: 0.1rem white solid; */
-    /* border-radius: 3rem; */
-    width: 25rem;    
+    width: 25rem;
+    margin: auto;
 }
 
 .abilities {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     gap: 3rem;
@@ -213,72 +297,20 @@ video.video-nft-two {
     margin-bottom: 2rem;
 }
 
+.abilities-box {
+    display: flex;
+    align-items: center;
+}
+
+.abilities-text {
+    width: 50%;
+}
+
+.abilities-img {
+    margin: auto;
+}
 
 /********** Lore *************/
-
-
-/************MINTING************/
-
-.minting{
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* width: 100%;
-    height: 100%; */
-    /* position: absolute; */
-    /* bottom:20px; */
-    /* height: 200px; */
-    padding: 0px 20px;
-}
-
-.minting h3 {
-    /* color: #fff!important;
-    background: none;/********** Lore *************/
-
-        font-weight: 800;
-        text-transform: uppercase;
-        letter-spacing: 6px;
-        margin: 3rem 0rem;
-        color: #fff;
-}
-
-#void-pass .timer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* max-width: 600px; */
-    width: 100%;
-    margin: auto;
-    margin-top: 0px;
-    grid-gap: 1rem;
-    text-align: center;
-}
-
-#void-pass .timer p {
-  font-size: 1.2rem;
-  font-family: 'Inter', sans-serif;/********** Lore *************/
-
-  font-weight: 900;
-  text-transform: uppercase;
-  margin-bottom: 0rem!important;
-}
-
-#void-pass .timer p small {
-  font-size: .8rem;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-#void-pass .space {
-    background: linear-gradient(51.33deg, #5E03C6 39.03%, #3F33D5 100.2%);
-    border-radius: 10px;
-    padding: 1.5rem;
-}
-
-/************MINTING************/
-
-
 
 @media only screen and (max-width: 1000px) {
     .section {
