@@ -96,7 +96,7 @@ video {
 .anchor {
     display: block;
     height: 3rem;
-    line-height: 2.6rem;
+    line-height: 2.9rem;
     text-align: center;
 }
 
@@ -150,7 +150,7 @@ video {
 
 .nft-gifs>img {
     display: block;
-    width: 25rem;
+    width: 30rem;
     border-radius: 1rem;
     border: 0.1rem white solid;
     margin-left: auto;
@@ -160,6 +160,7 @@ video {
 .quote {
     margin-left: auto;
     margin-right: auto;
+    font-size: 1.3rem;
 }
 
 video.video-nft {

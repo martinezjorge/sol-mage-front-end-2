@@ -24,7 +24,7 @@ const Hero = () => {
                         </div>
                         <div className="text-box">
                             <p className="quote">&ldquo;Mages do not simply die, they transform...&rdquo;</p>
-                            <p>Sol Mage Society is a collection of pixelated NFTs featuring a unique name, set of attributes, and even spellbook bringing specific attacks used to battle in the Sol Mage Arena. </p>
+                            <p>Sol Mage Society is a collection of pixelated NFTs featuring a unique name, set of attributes, and spellbook with personalized attacks used to battle in the Sol Mage Arena. </p>
                             <a className="anchor link-button eden-button" href="https://www.magiceden.io/marketplace/sol_mage_society">Magic Eden</a>
                             <a className="anchor link-button discord-button" href="https://discord.com/invite/solmage">Discord</a>
                         </div>
