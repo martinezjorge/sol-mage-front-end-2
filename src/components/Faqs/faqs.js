@@ -1,5 +1,5 @@
 import React from "react";
-import "./faqs.css"
+import "./faq.css"
 import { Accordion, AccordionItem } from 'react-light-accordion';
 import 'react-light-accordion/demo/css/index.css';
 

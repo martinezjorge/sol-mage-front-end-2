@@ -3,11 +3,10 @@ import "./footer.css"
 import twitter from '../../assets/img/twitter.png';
 import discord from '../../assets/img/discord.png';
 
-
 const Footer = () => {
     return (
         <div id="footer">
-            <div className="title">
+            <div>
                 <h2>Join The Community</h2>
             </div>
             <div id="links">

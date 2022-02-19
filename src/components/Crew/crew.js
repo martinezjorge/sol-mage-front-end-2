@@ -8,8 +8,7 @@ import CartoonThree from '../../assets/img/cartoon-three.png';
 const Crew = () => {
     return (
         <div className="crew" id="the-crew">
-
-            <div className="title">
+            <div className="crew-title">
                 <h1>The Council</h1>
             </div>
 
@@ -104,16 +103,13 @@ const Crew = () => {
                         <img src={CartoonThree} alt="The Void logo"></img>
                     </div>
                     <div className="crew-names">
-                        <h3>Parternship/Advisement</h3>
+                        <h3>Partnership/Advisement</h3>
                         <h4>RacerXeth</h4>
                     </div>
                 </div>
-
-
             </div>
-
         </div>
-    )
+    );
 }
 
 export default Crew
