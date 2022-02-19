@@ -40,7 +40,6 @@ video {
     border: 0.1rem white solid;
     z-index: 50;
     width: 90%;
-    /* height: 40rem; */
     height: 80%;
 }
 
@@ -60,7 +59,15 @@ video {
     z-index: 50;
     width: 28rem;
     height: 10rem;
+    /* padding-left: 4rem; */
+    margin-left: 4rem;
     margin-bottom: 2rem;
+}
+
+.nft-gifs {
+    display: flex;
+    align-self: center;
+    justify-self: center;
 }
 
 .text-box-container {
@@ -86,23 +93,11 @@ video {
     letter-spacing: 15px;
 }
 
-.centerpiece>a {
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    height: 3rem;
-    line-height: 1rem;
-    justify-content: center;
-}
-
 .anchor {
     display: block;
     height: 3rem;
-}
-
-.text-box>img {
-    margin-left: 3rem;
-    margin-bottom: 2rem;
+    line-height: 2.6rem;
+    text-align: center;
 }
 
 .text-box>p:first-child {
@@ -151,13 +146,20 @@ video {
     width: 100%;
     border-radius: 10px;
     z-index: 100;
-    align-self: center;
 }
 
 .nft-gifs>img {
+    display: block;
     width: 25rem;
     border-radius: 1rem;
     border: 0.1rem white solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 video.video-nft {

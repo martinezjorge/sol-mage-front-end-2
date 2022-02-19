@@ -12,8 +12,8 @@ const Lore = () => {
 
     return (
         <div className="void-pass" id="void-pass">
-            <h2><u>SOL Mage Arena: PvP/PvE Battles For Leaderboard</u></h2>
-            <h2><u>Rankings, Loot Boxes, and Tokens</u></h2>
+            <h1>SOL Mage Arena: PvP/PvE Battles For Leaderboard</h1>
+            <h1>Rankings, Loot Boxes, and Tokens</h1>
 
             <div className="pvp">
                 <h2>PvP Arena</h2>
@@ -43,7 +43,8 @@ const Lore = () => {
                 <p className="crawler-text">Climb up Sol Mage Tower levels in the Infinite Dungeon Crawl Mode. This mode will allow you to craft a diverse team of mages based on the set of parameters dictated by the Dungeon Crawl settings. Players that have an extensive collection of Sol Mages will have the upper hand as monsters will be weak to certain elements so crafting the optimal team will be crucial to get to the highest levels where the best prizes are awarded. </p>
             </div>
 
-            <h2 className=""><u>Lich Mages & The Lich Dao: Exclusive Revenue Sharing & Whitelist Opportunities</u></h2>
+            <h1 className="">Lich Mages & The Lich Dao:</h1>
+            <h1>Exclusive Revenue Sharing & Whitelist Opportunities</h1>
             <div className="chestMage">
                 <h2>Chest Mages</h2>
                 <div className="chestMage-text">
