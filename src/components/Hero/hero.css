@@ -33,14 +33,14 @@ video {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 10rem;
+    margin-top: 7rem;
     padding:  0rem 4rem 0rem 4rem;
     background: black;
     border-radius: 1rem 1rem 1rem 1rem;
     border: 0.1rem white solid;
     z-index: 50;
-    width: 90%;
-    height: 80%;
+    width: 95%;
+    height: 85%;
 }
 
 .link-button {
