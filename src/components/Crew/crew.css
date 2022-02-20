@@ -36,6 +36,17 @@
     max-width: 2rem;
 }
 
+.ghost {
+    width: 7rem;
+}
+
+.ghost-thick {
+    width: 12rem;
+}
+
+.ghost-outline {
+    width: 12rem;
+}
 
 #the-crew .image {
     text-align: center;

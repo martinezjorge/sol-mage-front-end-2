@@ -52,7 +52,7 @@ const Lore = () => {
                 <h1 className="chestMage-heading">Chest Mages</h1>
                 <div className="chestMage-textbox">
                     <div className="chestMage-text">
-                        <p>Out of the 666 total supply of Sol Mages, 66 NFTs will include a rare treasure chest.</p>
+                        <p>Out of the 666 total supply of Sol Mages, 66 NFTs include a rare treasure chest.</p>
                         <p>Help shape the future of Sol Mage Society by being granted access to the exclusive Lich Dao discord channel where your feedback will impact upcoming changes by holding a treasure chest mage! </p>
                     </div>                
                     <img className="chestMage-image"src={chestMage}></img>
