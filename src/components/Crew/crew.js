@@ -115,4 +115,4 @@ const Crew = () => {
     );
 }
 
-export default Crew
+export default Crew;

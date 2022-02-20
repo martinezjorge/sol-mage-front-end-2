@@ -51,7 +51,6 @@ video {
     text-transform: uppercase;
     letter-spacing: 1px;
     border-radius: 10px;
-    height: 10rem;
     border:none;
 }
 
@@ -95,8 +94,8 @@ video {
 
 .anchor {
     display: block;
-    height: 3rem;
-    line-height: 2.9rem;
+    height: 4rem;
+    line-height: 3.9rem;
     text-align: center;
 }
 
@@ -104,17 +103,27 @@ video {
     margin-bottom: 8rem;
 }
 
+.text-box-p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .text-box>.eden-button{
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     background-color: #5E03C6;
-    width: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .text-box>.discord-button {
     background-color: #5E03C6;
-    width: 100%;
+    width: 80%;
     margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .eden-button:active {
@@ -153,6 +162,7 @@ video {
     width: 30rem;
     border-radius: 1rem;
     border: 0.1rem white solid;
+    margin-bottom: 3rem;
     margin-left: auto;
     margin-right: auto;
 }
