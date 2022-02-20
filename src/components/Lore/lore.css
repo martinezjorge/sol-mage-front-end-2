@@ -73,14 +73,13 @@ video.video-nft-two {
 }
 
 .pvp-img {
-    /* height: 0rem; */
-    width: 80rem;
+    width: 80%;
     border: 0.1rem solid white;
     border-radius: 3rem;
 }
 
 .pvp-text {
-    width: 100%;
+    width: 80%;
     text-align: center;
     margin-bottom: 1rem;
     margin-top: 1rem;
@@ -109,8 +108,8 @@ video.video-nft-two {
 }
 
 .raid-img {
-    height: 40rem;
-    width: 40rem;
+    /* height: 50%; */
+    width: 50%;
 }
 
 .raid-text {
@@ -182,7 +181,8 @@ video.video-nft-two {
     border: 0.1rem white solid;
     border-radius: 3rem;
     margin: auto;
-    width: 25rem;
+    width: 50%;
+    max-width: 25rem;
 }
 
 .phylactery {
@@ -216,7 +216,8 @@ video.video-nft-two {
 .phylactery-img {
     border: 0.1rem white solid;
     border-radius: 3rem;
-    width: 25rem;
+    width: 50%;
+    max-width: 25rem;
     margin: auto;
 }
 
@@ -246,7 +247,8 @@ video.video-nft-two {
 }
 
 .howTo-img {
-    width: 80rem;
+    width: 50%;
+    max-width: 80rem;
     border-radius: 3rem;
     border: 0.1rem solid white;
 }
@@ -279,7 +281,8 @@ video.video-nft-two {
 }
 
 .battle-img {
-    width: 25rem;
+    width: 50%;
+    max-width: 25rem;
     margin: auto;
 }
 
@@ -307,6 +310,8 @@ video.video-nft-two {
 }
 
 .abilities-img {
+    width: 50%;
+    max-width: 25rem;
     margin: auto;
 }
 

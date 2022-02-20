@@ -56,7 +56,8 @@ video {
 
 .title {
     z-index: 50;
-    width: 28rem;
+    width: 50%;
+    max-width: 28rem;
     height: 10rem;
     margin-left: 4rem;
     margin-bottom: 2rem;
@@ -159,11 +160,13 @@ video {
 
 .nft-gifs>img {
     display: block;
-    width: 30rem;
+    width: 100%;
+    max-width: 30rem;
     border-radius: 1rem;
     border: 0.1rem white solid;
     margin-bottom: 3rem;
     margin-right: auto;
+    margin-left: auto;
 }
 
 .quote {
