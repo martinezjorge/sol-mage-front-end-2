@@ -58,7 +58,6 @@ video {
     z-index: 50;
     width: 28rem;
     height: 10rem;
-    /* padding-left: 4rem; */
     margin-left: 4rem;
     margin-bottom: 2rem;
 }
@@ -80,7 +79,7 @@ video {
     align-self: center;
     min-width: 10rem;
     padding-right: 1.5rem;
-    margin-left: 3rem;
+    margin-left: auto;
 }
 
 .text-box h1 {
@@ -163,7 +162,7 @@ video {
     border-radius: 1rem;
     border: 0.1rem white solid;
     margin-bottom: 3rem;
-    margin-left: auto;
+    /* margin-left: auto; */
     margin-right: auto;
 }
 
