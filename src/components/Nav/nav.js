@@ -2,12 +2,14 @@ import React from "react";
 import  "./nav.css"
 import Logo from '../../assets/img/White.png';
 import Wallet from '../../assets/img/wallet.png';
+import Lich from '../../assets/img/lich.gif';
+
 
 const nav = () => {
 
     return (
         <div className="nav-container sticky">
-            <a className="logo" href="#"><img src={Logo} alt="The Void logo" className="void-logo"></img></a>
+            <a className="logo" href="#"><img src={Lich} alt="The Void logo" className="void-logo"></img></a>
             <nav className="navigation">
                 <ul>
                     <li><a href="#void-pass">About</a></li>
