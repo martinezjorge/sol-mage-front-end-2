@@ -8,7 +8,6 @@ const Faq = () => (
     <h1>FAQ</h1>
     <div className="section-faq">
       <Accordion atomic={true}>
-
         <AccordionItem title="General Info">
           <DummyContentOne />
         </AccordionItem>
@@ -36,7 +35,6 @@ const Faq = () => (
         <AccordionItem title="For The PvP/PvE Game Modes Is There Guides/Move Lists?">
           <DummyContentSeven />
         </AccordionItem>
-
       </Accordion>
     </div>
   </div>

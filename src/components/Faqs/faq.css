@@ -1,31 +1,35 @@
 #faq {
-    padding: 2rem 1rem;
-    width: 100%;
-    height: 100%;
-    min-height: 500px;
     display: flex;
-    -webkit-box-align: center;
     align-items: center;
+    padding: 2rem 1rem;
+    min-height: 500px;
     background: #0F0F0F;
     flex-direction: column;
-    align-items: center;
-}
-
-#faq .section-faq {
-    max-width: 1200px;
+    height: 100%;
     width: 100%;
-    margin: auto;
-    text-align: center;
 }
 
-.title {
+.section-faq {
+    width: 100%;
+    max-width: 80rem;
+}
+
+.accordion-item>button {
+    display: block;
     justify-content: center;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .accordion {
     border-radius: 0px!important;
     border: 0px!important;
+}
+
+button {
+    margin: 0;
+    padding: 0;
 }
 
 .accordion .accordion-item .title {
@@ -60,11 +64,8 @@
     content: '\2212'!important;
 }
 
-.accordion .accordion-item {}
-
 .panel {
     text-align: left;
-    padding-left: 5rem;
 }
 
 .accordion .accordion-item.active .panel p {
@@ -96,15 +97,10 @@
 
 
 @media only screen and (max-width: 720px) {
-
     #faq {
         padding: 60px 20px;
-
     }
 }
-
-
-
 
 @media only screen and (max-width: 600px) {
     .accordion-item button {
@@ -117,5 +113,3 @@
         font-size: 0.5rem;
     }
 }
-
-

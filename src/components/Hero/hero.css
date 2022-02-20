@@ -71,6 +71,8 @@ video {
 .text-box-container {
     display: flex;
     row-gap: 2rem;
+    margin-right: 0;
+    padding-right: 0;
 }
 
 .text-box {
@@ -78,7 +80,6 @@ video {
     flex-direction: column;
     align-self: center;
     min-width: 10rem;
-    padding-right: 1.5rem;
     margin-left: auto;
 }
 
@@ -162,7 +163,6 @@ video {
     border-radius: 1rem;
     border: 0.1rem white solid;
     margin-bottom: 3rem;
-    /* margin-left: auto; */
     margin-right: auto;
 }
 
@@ -175,7 +175,6 @@ video {
 video.video-nft {
     width: 220px;
     position: relative;
-    /* margin-top: 173px; */
     box-shadow: 1px 1px 30px 2px rgba(255, 255, 255, 0.5);
     -webkit-box-shadow: 1px 1px 30px 2px rgba(255, 255, 255, 0.5);
     border-radius: 10px;
@@ -186,18 +185,12 @@ video.video-nft {
 @media only screen and (max-width: 900px) {
 
     .nft-box {
-        /* bottom: 230px; */
-        /* left: 40%;
-        bottom: 40%; */
         bottom: 35%;
-        /* display: none; */
     }
     
     video.video-nft {
         width: 160px;
     }
-
-
 
     .text-box h1 {
         font-size: 1rem;
@@ -211,11 +204,6 @@ video.video-nft {
         font-size: 0.7rem;
     }
 
-    .text-box {
-        /* top: 70px; */
-    }
-
-
 }
 
 
@@ -223,9 +211,6 @@ video.video-nft {
     
     #void .space {
         padding: 1rem;
-    }
-  
-    #void .timer {
     }
   
     #void .timer p {

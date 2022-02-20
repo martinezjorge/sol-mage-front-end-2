@@ -331,7 +331,6 @@ video.video-nft-two {
         color: #fff;
         text-transform: uppercase;
         letter-spacing: 2px;
-        /* line-height: 55px; */
         padding: 0px 0 0px 18px;
         font-size: 0.5rem;
     }
@@ -353,10 +352,6 @@ video.video-nft-two {
     .section {
         grid-gap: 50px;
     }
-
-    /* #void-pass .timer {
-        grid-template-columns: 1fr 1fr;
-    } */
 
     #void-pass .space {
         padding: 0.5rem;

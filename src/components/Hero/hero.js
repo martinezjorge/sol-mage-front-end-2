@@ -3,11 +3,8 @@ import "./hero.css"
 import title from "../../assets/img/transparent_title.png";
 import PixelBackground from '../../assets/video/pixel_background.mp4';
 import Nfts from '../../assets/img/SolMage500500.gif';
-import banner from "../../assets/img/banner.jpg";
-
 
 const Hero = () => {
-
     return (
         <div className="hero" id="void">
             <div className="hero-container">
