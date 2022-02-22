@@ -62,11 +62,11 @@ h2 {
 }
 
 p {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   color: #fff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 2px;
   margin-bottom: 4rem;
   line-height: 25px;

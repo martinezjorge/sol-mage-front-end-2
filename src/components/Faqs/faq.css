@@ -1,5 +1,6 @@
 #faq {
     display: flex;
+    -webkit-box-align: center;
     align-items: center;
     padding: 2rem 1rem;
     min-height: 500px;
@@ -12,15 +13,14 @@
 .section-faq {
     width: 100%;
     max-width: 80rem;
+    margin: auto;
 }
 
-.accordion-item>button {
+/* .accordion-item>button {
     display: block;
     justify-content: center;
     text-align: center;
-    padding: 0;
-    margin: 0;
-}
+} */
 
 .accordion {
     border-radius: 0px!important;
@@ -30,6 +30,15 @@
 button {
     margin: 0;
     padding: 0;
+    width: 100%;
+}
+
+.button.title {
+    width: 100%;
+}
+
+.accordion-item {
+    width: 100%;
 }
 
 .accordion .accordion-item .title {
@@ -73,7 +82,7 @@ button {
     margin-bottom: 0rem!important;
 }
 
-
+/* 
 @media only screen and (max-width: 800px) {
     .accordion-item button {
         font-size:0.6rem;
@@ -112,4 +121,4 @@ button {
         margin-bottom: 0rem!important;
         font-size: 0.5rem;
     }
-}
+} */
