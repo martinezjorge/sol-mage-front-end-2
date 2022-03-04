@@ -3,7 +3,7 @@ import "./team.css";
 import Ghost from "../../assets/img/Ghost.png";
 import GhostHolding from "../../assets/img/Ghost-Thick-Outline.png";
 import GhostReading from "../../assets/img/GhostReading.png";
-import GhostReaching from "../../assets/img/Ghost-Reaching.png"
+import GhostReaching from "../../assets/img/Ghost-Reaching.png";
 import MageGif from "../../assets/img/WhiteShrimp-Sparkles.gif";
 import WhiteShrimpWebp from "../../assets/img/WhiteShrimp.webp";
 import WhiteGhost2Webp from "../../assets/img/WhiteGhost2.webp";
